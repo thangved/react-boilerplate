@@ -1,5 +1,5 @@
+import DefaultLayout from "@/layouts/default";
 import { createBrowserRouter } from "react-router-dom";
-import DefaultLayout from "../layouts/default";
 
 const router = createBrowserRouter([
 	{
