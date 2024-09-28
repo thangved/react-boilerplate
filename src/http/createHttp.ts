@@ -7,7 +7,7 @@ import axios from "axios";
  * @example createHttp("users") => http://localhost:3000/users
  * @returns Axios instance
  */
-export default function createHttp(resource: string = "") {
+export default function createHttp(resource = "") {
 	const http = axios.create({
 		baseURL: `${import.meta.env.VITE_APP_API_URL}/${resource}`,
 	});
