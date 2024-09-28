@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/thangved/react-vite-template/compare/v1.0.1...v1.0.2) (2024-09-28)
+
+
+### Bug Fixes
+
+* fix deployment ([d1389b5](https://github.com/thangved/react-vite-template/commit/d1389b5524b491df4064f43b70a5d433f986339a))
+
 ## [1.0.1](https://github.com/thangved/react-vite-template/compare/v1.0.0...v1.0.1) (2024-09-27)
 
 ### Bug Fixes
