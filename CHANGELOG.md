@@ -2,17 +2,15 @@
 
 ## [1.0.3](https://github.com/thangved/react-vite-template/compare/v1.0.2...v1.0.3) (2024-10-03)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @tanstack/react-query to v5.59.0 ([6d8c9fc](https://github.com/thangved/react-vite-template/commit/6d8c9fc4339d4a05804a782ba4c52a16316400ae))
+-   **deps:** update dependency @tanstack/react-query to v5.59.0 ([6d8c9fc](https://github.com/thangved/react-vite-template/commit/6d8c9fc4339d4a05804a782ba4c52a16316400ae))
 
 ## [1.0.2](https://github.com/thangved/react-vite-template/compare/v1.0.1...v1.0.2) (2024-09-28)
 
-
 ### Bug Fixes
 
-* fix deployment ([d1389b5](https://github.com/thangved/react-vite-template/commit/d1389b5524b491df4064f43b70a5d433f986339a))
+-   fix deployment ([d1389b5](https://github.com/thangved/react-vite-template/commit/d1389b5524b491df4064f43b70a5d433f986339a))
 
 ## [1.0.1](https://github.com/thangved/react-vite-template/compare/v1.0.0...v1.0.1) (2024-09-27)
 
