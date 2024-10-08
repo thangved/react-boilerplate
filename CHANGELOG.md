@@ -2,10 +2,9 @@
 
 ## [1.0.4](https://github.com/thangved/react-vite-template/compare/v1.0.3...v1.0.4) (2024-10-08)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @reduxjs/toolkit to v2.2.8 ([6dda1de](https://github.com/thangved/react-vite-template/commit/6dda1ded2540c54492716c9226b0542e077df901))
+-   **deps:** update dependency @reduxjs/toolkit to v2.2.8 ([6dda1de](https://github.com/thangved/react-vite-template/commit/6dda1ded2540c54492716c9226b0542e077df901))
 
 ## [1.0.3](https://github.com/thangved/react-vite-template/compare/v1.0.2...v1.0.3) (2024-10-03)
 
