@@ -25,3 +25,7 @@ dist-ssr
 
 /dev-dist
 .vercel
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
