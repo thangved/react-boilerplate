@@ -24,3 +24,8 @@ dist-ssr
 *.sw?
 
 /dev-dist
+.vercel
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
