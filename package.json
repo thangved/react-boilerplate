@@ -60,7 +60,7 @@
 		"vite-imagetools": "^7.0.4",
 		"vite-plugin-node-polyfills": "^0.22.0",
 		"vite-plugin-optimize-css-modules": "^1.0.6",
-		"vite-plugin-pwa": "^0.20.0",
+		"vite-plugin-pwa": "^0.21.0",
 		"vitest": "^2.0.4"
 	}
 }
