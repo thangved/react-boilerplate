@@ -10,7 +10,7 @@
 		"generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.svg",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"prepare": "husky",
-		"preview": "vite preview",
+		"start": "vite preview",
 		"test": "vitest"
 	},
 	"lint-staged": {

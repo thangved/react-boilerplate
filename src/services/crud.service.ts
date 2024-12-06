@@ -1,8 +1,8 @@
-import createHttp from "@/http/createHttp";
+import http from "@/http/http";
 import { BaseService } from "./base.service";
 
 /**
- * @description Service class for CRUD operations
+ * Service class for CRUD operations
  * - POST: Create
  * - GET: Read (All and Single)
  * - PUT: Update
@@ -11,16 +11,16 @@ import { BaseService } from "./base.service";
  */
 export class CrudService<T = unknown> extends BaseService {
 	/**
-	 * @description Constructor for the CRUD service
+	 * Constructor for the CRUD service
 	 * @param resource Resource path for the service
 	 * @example new CrudService("users") => http://localhost:3000/users
 	 */
 	constructor(resource: string) {
-		super(createHttp(resource));
+		super(http(resource));
 	}
 
 	/**
-	 * @description Create a new data in the resource
+	 * Create a new data in the resource
 	 * @param data - Data to be created
 	 * @returns Created data
 	 */
@@ -29,7 +29,7 @@ export class CrudService<T = unknown> extends BaseService {
 	}
 
 	/**
-	 * @description Get all data from the resource
+	 * Get all data from the resource
 	 * @returns All data
 	 */
 	async getAll(): Promise<T[]> {
@@ -37,7 +37,7 @@ export class CrudService<T = unknown> extends BaseService {
 	}
 
 	/**
-	 * @description Get a single data from the resource
+	 * Get a single data from the resource
 	 * @param id ID of the data to be fetched
 	 * @returns Data with the given ID
 	 */
@@ -46,7 +46,7 @@ export class CrudService<T = unknown> extends BaseService {
 	}
 
 	/**
-	 * @description Update a data in the resource
+	 * Update a data in the resource
 	 * @param id ID of the data to be updated
 	 * @param data Data to be updated
 	 * @returns Updated data
@@ -56,7 +56,7 @@ export class CrudService<T = unknown> extends BaseService {
 	}
 
 	/**
-	 * @description Delete a data from the resource
+	 * Delete a data from the resource
 	 * @param id ID of the data to be deleted
 	 */
 	async delete(id: string): Promise<void> {

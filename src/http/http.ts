@@ -2,14 +2,14 @@ import tokenService from "@/services/token.service";
 import axios from "axios";
 
 /**
- * @description Create an Axios instance for making HTTP requests
+ * Create an Axios instance for making HTTP requests
  * @param resource Resource path for the service
- * @example createHttp("users") => http://localhost:3000/users
+ * @example http("users") => http://localhost:3000/users
  * @returns Axios instance
  */
-export default function createHttp(resource = "") {
+export default function http(resource = "") {
 	const http = axios.create({
-		baseURL: `${import.meta.env.VITE_APP_API_URL}/${resource}`,
+		baseURL: `${import.meta.env.VITE_API_URL}/${resource}`,
 	});
 
 	// Add a request interceptor
