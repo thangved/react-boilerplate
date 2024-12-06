@@ -4,18 +4,18 @@
 
 ## Stack
 
-- React + TypeScript
-- Sass
-- Redux
-- React Query
-- Axios
-- React Router
-- PWA
-- Husky
-- Lint-Staged
-- Prettier
-- Eslint
-- Commitlint
+-   React + TypeScript
+-   Sass
+-   Redux
+-   React Query
+-   Axios
+-   React Router
+-   PWA
+-   Husky
+-   Lint-Staged
+-   Prettier
+-   Eslint
+-   Commitlint
 
 ## Installation 🚀
 
