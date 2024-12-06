@@ -6,9 +6,15 @@
 
 - React
 - Redux
+- React Query
 - Axios
 - React Router
 - PWA
+- Husky
+- Lint-Staged
+- Prettier
+- Eslint
+- Commitlint
 
 ## Installation 🚀
 
