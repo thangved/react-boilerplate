@@ -4,7 +4,8 @@
 
 ## Stack
 
-- React
+- React + TypeScript
+- Sass
 - Redux
 - React Query
 - Axios
