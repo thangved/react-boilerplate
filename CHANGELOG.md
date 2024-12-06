@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/thangved/react-boilerplate/compare/v1.0.6...v1.0.7) (2024-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-router-dom to v7 ([53943eb](https://github.com/thangved/react-boilerplate/commit/53943eba42408d61280ee9ab029e9c5a008aa09a))
+
 ## [1.0.6](https://github.com/thangved/react-vite-template/compare/v1.0.5...v1.0.6) (2024-10-10)
 
 ### Bug Fixes
