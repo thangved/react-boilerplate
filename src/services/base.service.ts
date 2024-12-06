@@ -6,7 +6,7 @@ import { AxiosInstance } from "axios";
  */
 export class BaseService {
 	/**
-	 * @description Constructor for the base service
+	 * Constructor for the base service
 	 * @param http AxiosInstance to be used for making requests
 	 */
 	constructor(protected readonly http: AxiosInstance) {}

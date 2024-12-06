@@ -1,5 +1,5 @@
 /**
- * @description Service for managing the access token
+ * Service for managing the access token
  * - Get and set the access token
  * - Save the access token to the local storage
  * - Get the access token from the local storage
@@ -8,7 +8,7 @@
  */
 export class TokenService {
 	/**
-	 * @description Constructor for the token service
+	 * Constructor for the token service
 	 * @param _accessTokenName Name of the access token in the local storage
 	 * @param _accessToken Access token
 	 */
@@ -21,14 +21,14 @@ export class TokenService {
 	}
 
 	/**
-	 * @description Get the access token
+	 * Get the access token
 	 */
 	get accessToken() {
 		return this._accessToken;
 	}
 
 	/**
-	 * @description Set the access token
+	 * Set the access token
 	 */
 	set accessToken(token: string) {
 		this._accessToken = token;
@@ -36,7 +36,7 @@ export class TokenService {
 	}
 
 	/**
-	 * @description Clear the access token
+	 * Clear the access token
 	 */
 	public clear() {
 		this._accessToken = ""; // Clear the access token
