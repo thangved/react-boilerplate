@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import { fileURLToPath } from "node:url";
 import { defineConfig } from "vite";
 import { imagetools } from "vite-imagetools";
+import i18nextLoader from "vite-plugin-i18next-loader";
 import { nodePolyfills } from "vite-plugin-node-polyfills";
 import { optimizeCssModules } from "vite-plugin-optimize-css-modules";
 import { VitePWA } from "vite-plugin-pwa";
@@ -10,6 +11,13 @@ import { VitePWA } from "vite-plugin-pwa";
 // https://vitejs.dev/config/
 export default () => {
 	return defineConfig({
+		css: {
+			preprocessorOptions: {
+				scss: {
+					api: "modern",
+				},
+			},
+		},
 		plugins: [
 			react(),
 			nodePolyfills(),
@@ -57,6 +65,10 @@ export default () => {
 						},
 					],
 				},
+			}),
+			i18nextLoader({
+				namespaceResolution: "relativePath",
+				paths: ["./locales"],
 			}),
 		],
 		resolve: {
