@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/thangved/react-boilerplate/compare/v1.0.7...v1.1.0) (2024-12-17)
+
+
+### Features
+
+* add i18next ([05f925b](https://github.com/thangved/react-boilerplate/commit/05f925be508b94f7f1ab300b09c690c70d1dea7d))
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19 ([95fe746](https://github.com/thangved/react-boilerplate/commit/95fe7469d5116af762419e35fd97cce8e08b7d5d))
+
 ## [1.0.7](https://github.com/thangved/react-boilerplate/compare/v1.0.6...v1.0.7) (2024-12-06)
 
 ### Bug Fixes
