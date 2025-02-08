@@ -1,4 +1,4 @@
-import { Base, BaseInput, BaseUpdate } from "@/types/_base";
+import { Base, BaseInput, BaseUpdate } from "@/types/base";
 import { BaseService } from "./base.service";
 
 /**
