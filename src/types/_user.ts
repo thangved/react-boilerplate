@@ -1,4 +1,4 @@
-import { Base, BaseInput } from "./Base";
+import { Base, BaseInput } from "./_base";
 
 /**
  * User model, extended from the base model
