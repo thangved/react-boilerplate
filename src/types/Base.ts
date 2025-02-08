@@ -15,3 +15,10 @@ export type Base = {
 	 */
 	updatedAt: string; // ISO 8601 date string
 };
+
+/**
+ * Base input model, used to create a new base
+ * @template T The type of the base
+ * @extends Base
+ */
+export type BaseInput<T extends Base = Base> = Omit<T, "id" | "createdAt" | "updatedAt">;
