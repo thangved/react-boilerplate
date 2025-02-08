@@ -22,3 +22,5 @@ export type Base = {
  * @extends Base
  */
 export type BaseInput<T extends Base = Base> = Omit<T, "id" | "createdAt" | "updatedAt">;
+
+export type BaseUpdate<T extends Base = Base> = Partial<BaseInput<T>>;

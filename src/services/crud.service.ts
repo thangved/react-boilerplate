@@ -1,4 +1,4 @@
-import http from "@/http/http";
+import { Base, BaseInput, BaseUpdate } from "@/types/Base";
 import { BaseService } from "./base.service";
 
 /**
@@ -9,31 +9,22 @@ import { BaseService } from "./base.service";
  * - DELETE: Delete
  * @author Kim Minh Thang
  */
-export class CrudService<T = unknown> extends BaseService {
-	/**
-	 * Constructor for the CRUD service
-	 * @param resource Resource path for the service
-	 * @example new CrudService("users") => http://localhost:3000/users
-	 */
-	constructor(resource: string) {
-		super(http(resource));
-	}
-
+export class CrudService<T extends Base = Base> extends BaseService {
 	/**
 	 * Create a new data in the resource
 	 * @param data - Data to be created
 	 * @returns Created data
 	 */
-	async create(data: Omit<T, "id">): Promise<T> {
-		return await this.http.post("", data);
+	create(data: BaseInput<T>): Promise<T> {
+		return this.client.post("", data);
 	}
 
 	/**
 	 * Get all data from the resource
 	 * @returns All data
 	 */
-	async getAll(): Promise<T[]> {
-		return await this.http.get("");
+	getAll(): Promise<T[]> {
+		return this.client.get("");
 	}
 
 	/**
@@ -41,8 +32,8 @@ export class CrudService<T = unknown> extends BaseService {
 	 * @param id ID of the data to be fetched
 	 * @returns Data with the given ID
 	 */
-	async get(id: string): Promise<T> {
-		return await this.http.get(id);
+	get(id: string): Promise<T> {
+		return this.client.get(id);
 	}
 
 	/**
@@ -51,15 +42,15 @@ export class CrudService<T = unknown> extends BaseService {
 	 * @param data Data to be updated
 	 * @returns Updated data
 	 */
-	async update(id: string, data: Partial<T>): Promise<T> {
-		return await this.http.put(id, data);
+	update(id: string, data: BaseUpdate<T>): Promise<T> {
+		return this.client.put(id, data);
 	}
 
 	/**
 	 * Delete a data from the resource
 	 * @param id ID of the data to be deleted
 	 */
-	async delete(id: string): Promise<void> {
-		await this.http.delete(id);
+	delete(id: string): Promise<void> {
+		return this.client.delete(id);
 	}
 }
