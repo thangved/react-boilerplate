@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.0.0](https://github.com/thangved/react-boilerplate/compare/v1.1.0...v2.0.0) (2025-02-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* change types name
+* update service interfaces
+* change models to types and add BaseInput
+
+### Features
+
+* add docker image ([ab4021d](https://github.com/thangved/react-boilerplate/commit/ab4021daa1fd622755a09019706750e164c57217))
+* change models to types and add BaseInput ([d361b02](https://github.com/thangved/react-boilerplate/commit/d361b022b867e93fb308866303c6c342d11522c5))
+* change types name ([f311c6e](https://github.com/thangved/react-boilerplate/commit/f311c6e0aa7ba084fdee415cd5af4a6240739997))
+* import entry ([fe6a3f0](https://github.com/thangved/react-boilerplate/commit/fe6a3f03f93295dcf4fdef022ee521f6cb79409e))
+* update default logo ([1a43cfc](https://github.com/thangved/react-boilerplate/commit/1a43cfce460ad8c84ec7ad258d238336976f6372))
+* update service interfaces ([3f3858e](https://github.com/thangved/react-boilerplate/commit/3f3858e643d03854c30c21c97ad2466eab428d43))
+
+
+### Bug Fixes
+
+* rename logo component ([9f39568](https://github.com/thangved/react-boilerplate/commit/9f39568fd71d65698afad66e1cfb8aace7516853))
+
 ## [1.1.0](https://github.com/thangved/react-boilerplate/compare/v1.0.7...v1.1.0) (2024-12-17)
 
 ### Features
