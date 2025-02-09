@@ -14,7 +14,7 @@ export class BaseService {
 	constructor(resource: string) {
 		this.tokenService = new TokenService();
 		this.client = axios.create({
-			baseURL: `${import.meta.env.VITE_API_URL}/${resource}`,
+			baseURL: `/api/${resource}`,
 		});
 
 		// Add a request interceptor
