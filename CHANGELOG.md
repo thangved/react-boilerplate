@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/thangved/react-boilerplate/compare/v2.0.2...v2.0.3) (2025-02-09)
+
+
+### Bug Fixes
+
+* update docker ci ([e19df83](https://github.com/thangved/react-boilerplate/commit/e19df832cec668a4c83d3a531a04de5e915421d9))
+
 ## [2.0.2](https://github.com/thangved/react-boilerplate/compare/v2.0.1...v2.0.2) (2025-02-09)
 
 
