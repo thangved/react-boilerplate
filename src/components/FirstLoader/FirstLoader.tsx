@@ -1,5 +1,5 @@
-import Logo from "../logo";
-import styles from "./first-loader.module.scss";
+import Logo from "../Logo";
+import styles from "./FirstLoader.module.scss";
 
 export default function FirstLoader() {
 	return (

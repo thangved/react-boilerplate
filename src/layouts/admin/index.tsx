@@ -1,4 +1,4 @@
-import FirstLoader from "@/components/first-loader";
+import FirstLoader from "@/components/FirstLoader";
 import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 

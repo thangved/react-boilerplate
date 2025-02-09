@@ -43,5 +43,3 @@ export class TokenService {
 		if (typeof window !== "undefined") localStorage.removeItem(this._accessTokenName); // Remove the access token from the local storage
 	}
 }
-
-export default new TokenService() as TokenService;
