@@ -1,5 +1,5 @@
-import FirstLoader from "@/components/first-loader";
-import useAppSelector from "@/hooks/useAppSelector";
+import FirstLoader from "@/components/FirstLoader";
+import { useAppSelector } from "@/hooks";
 import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 
