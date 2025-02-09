@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.1](https://github.com/thangved/react-boilerplate/compare/v2.0.0...v2.0.1) (2025-02-09)
+
+
+### Bug Fixes
+
+* **docker:** docker issue with root user ([7e8fbf3](https://github.com/thangved/react-boilerplate/commit/7e8fbf3ee4a8df04e366e211c0a5cb4cfdd00edb))
+* **docker:** use COPY instead ADD for local resources ([a8b542b](https://github.com/thangved/react-boilerplate/commit/a8b542ba46f9e740f15325302c52a0dacbe18267))
+* **logical:** use ?? instead || ([e275c1f](https://github.com/thangved/react-boilerplate/commit/e275c1f96a6e6d68e4ac1205918511f41b47966f))
+
 ## [2.0.0](https://github.com/thangved/react-boilerplate/compare/v1.1.0...v2.0.0) (2025-02-09)
 
 
