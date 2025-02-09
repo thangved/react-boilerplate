@@ -1,4 +1,6 @@
 # React Boilerplate
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthangved%2Freact-boilerplate.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthangved%2Freact-boilerplate?ref=badge_shield)
+
 
 > React Boilerplate with Vite, Redux, Axios and others.
 
@@ -99,3 +101,7 @@ npm run dev
 ```bash
 npm run build
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthangved%2Freact-boilerplate.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthangved%2Freact-boilerplate?ref=badge_large)
