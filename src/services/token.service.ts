@@ -17,7 +17,7 @@ export class TokenService {
 		private _accessToken: string = "",
 	) {
 		// Get the access token from the local storage if it exists
-		if (typeof window !== "undefined") this._accessToken = localStorage.getItem(this._accessTokenName) || "";
+		if (typeof window !== "undefined") this._accessToken = localStorage.getItem(this._accessTokenName) ?? "";
 	}
 
 	/**
