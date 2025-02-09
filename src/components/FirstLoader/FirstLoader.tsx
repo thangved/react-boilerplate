@@ -1,10 +1,10 @@
-import Logo from "../Logo";
+import AppLogo from "../AppLogo";
 import styles from "./FirstLoader.module.scss";
 
 export default function FirstLoader() {
 	return (
 		<div className={styles.wrapper}>
-			<Logo className={styles.logo} />
+			<AppLogo className={styles.logo} />
 		</div>
 	);
 }
