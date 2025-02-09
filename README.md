@@ -1,6 +1,7 @@
 # React Boilerplate
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthangved%2Freact-boilerplate.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthangved%2Freact-boilerplate?ref=badge_shield)
 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthangved%2Freact-boilerplate.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthangved%2Freact-boilerplate?ref=badge_shield)
+[![CodeFactor](https://www.codefactor.io/repository/github/thangved/react-boilerplate/badge)](https://www.codefactor.io/repository/github/thangved/react-boilerplate)
 
 > React Boilerplate with Vite, Redux, Axios and others.
 
@@ -102,6 +103,6 @@ npm run dev
 npm run build
 ```
 
-
 ## License
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthangved%2Freact-boilerplate.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthangved%2Freact-boilerplate?ref=badge_large)
