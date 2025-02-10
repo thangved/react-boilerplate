@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.4](https://github.com/thangved/react-boilerplate/compare/v2.0.3...v2.0.4) (2025-02-10)
+
+
+### Miscellaneous Chores
+
+* release 2.0.4 ([f64df1b](https://github.com/thangved/react-boilerplate/commit/f64df1b0b445e7a5d4478f29a17e76671fd968e9))
+
 ## [2.0.3](https://github.com/thangved/react-boilerplate/compare/v2.0.2...v2.0.3) (2025-02-09)
 
 
