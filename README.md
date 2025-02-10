@@ -26,18 +26,6 @@
 npm install # or yarn install
 ```
 
-## Configuration 📝
-
-Copy the `.env.example` file to `.env.local` and configure the environment variables.
-
-```bash
-cp .env.example .env.local
-```
-
-| Variable       | Description |
-| -------------- | ----------- |
-| `VITE_API_URL` | API URL     |
-
 ## Structure 📁
 
 ```bash
@@ -45,17 +33,18 @@ cp .env.example .env.local
 ├── assets
 │   └── logo.svg # App logo
 ├── components # Reusable components
-│   ├── first-loader
-│   │   ├── first-loader.module.scss
-│   │   └── index.tsx
-│   └── logo
-│       ├── index.tsx
-│       └── logo.module.scss
+│   ├── FirstLoader
+│   │   ├── FirstLoader.module.scss
+│   │   ├── FirstLoader.tsx
+│   │   └── index.ts
+│   └── AppLogo
+│       ├── AppLogo.module.scss
+│       ├── AppLogo.tsx
+│       └── index.ts
 ├── hooks # Custom hooks
 │   ├── useAppDispatch.ts
-│   └── useAppSelector.ts
-├── http
-│   └── http.ts # Axios instance
+│   ├── useAppSelector.ts
+│   └── index.ts
 ├── index.css
 ├── layouts # Layouts
 │   ├── admin # Admin layout (access by /admin)
@@ -65,9 +54,9 @@ cp .env.example .env.local
 │   └── user # User layout (access by /user)
 │       └── index.tsx
 ├── main.tsx
-├── models # API models
-│   ├── Base.ts # Base model
-│   └── User.ts # Example user model (extends from Base)
+├── types # API models
+│   ├── base.ts # Base model
+│   └── user.ts # Example user model (extends from Base)
 ├── pages # Pages
 │   ├── admin # Admin pages
 │   │   └── index.tsx
@@ -81,6 +70,7 @@ cp .env.example .env.local
 │   ├── base.service.ts
 │   ├── crud.service.ts
 │   └── token.service.ts
+│   └── index.ts
 ├── store
 │   ├── index.ts
 │   ├── queryClient.ts
