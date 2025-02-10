@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.5](https://github.com/thangved/react-boilerplate/compare/v2.0.4...v2.0.5) (2025-02-10)
+
+
+### Bug Fixes
+
+* **docker:** add docker image description ([b56aa91](https://github.com/thangved/react-boilerplate/commit/b56aa911d4f24cef2c0b5b5a55bff74738630207))
+
 ## [2.0.4](https://github.com/thangved/react-boilerplate/compare/v2.0.3...v2.0.4) (2025-02-10)
 
 
