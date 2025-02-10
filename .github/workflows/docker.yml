@@ -68,6 +68,8 @@ jobs:
                   cache-from: type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }},mode=max
                   cache-to: type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }},mode=max
                   platforms: ${{ env.DOCKER_PLATFORMS }}
+                  annotations: |
+                      org.opencontainers.image.description="React.js Boilerplate"
 
             - name: Sign the published Docker image
               if: ${{ github.event_name != 'pull_request' }}
