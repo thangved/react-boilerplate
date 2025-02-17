@@ -58,7 +58,7 @@
 		"prettier-plugin-packagejson": "^2.5.6",
 		"sass": "^1.83.0",
 		"typescript": "^5.7.2",
-		"vite": "^5.4.11",
+		"vite": "^6.0.0",
 		"vite-imagetools": "^7.0.5",
 		"vite-plugin-i18next-loader": "^3.0.0",
 		"vite-plugin-node-polyfills": "^0.23.0",
