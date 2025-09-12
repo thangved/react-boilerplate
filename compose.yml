@@ -1,10 +1,10 @@
 services:
-    web:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        image: ghrc.io/thangved/react-boilerplate
-        ports:
-            - 8888:80
-    api:
-        image: ghrc.io/thangved/express0
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghrc.io/thangved/react-boilerplate
+    ports:
+      - 8888:80
+  api:
+    image: ghrc.io/thangved/express0

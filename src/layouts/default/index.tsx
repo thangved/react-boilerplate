@@ -4,13 +4,13 @@ import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 
 export default function DefaultLayout() {
-	const user = useAppSelector((state) => state.user);
+  const user = useAppSelector((state) => state.user);
 
-	if (!user) return <FirstLoader />;
+  if (!user) return <FirstLoader />;
 
-	return (
-		<Suspense fallback={<FirstLoader />}>
-			<Outlet />
-		</Suspense>
-	);
+  return (
+    <Suspense fallback={<FirstLoader />}>
+      <Outlet />
+    </Suspense>
+  );
 }

@@ -13,17 +13,17 @@ import { i18n } from "./libs";
 const rootElement = document.getElementById("root");
 
 if (!rootElement) {
-	throw new Error("Root element not found");
+  throw new Error("Root element not found");
 }
 
 ReactDOM.createRoot(rootElement).render(
-	<React.StrictMode>
-		<I18nextProvider i18n={i18n} defaultNS={["translation"]}>
-			<QueryClientProvider client={queryClient}>
-				<Provider store={store}>
-					<RouterProvider router={router} />
-				</Provider>
-			</QueryClientProvider>
-		</I18nextProvider>
-	</React.StrictMode>,
+  <React.StrictMode>
+    <I18nextProvider i18n={i18n} defaultNS={["translation"]}>
+      <QueryClientProvider client={queryClient}>
+        <Provider store={store}>
+          <RouterProvider router={router} />
+        </Provider>
+      </QueryClientProvider>
+    </I18nextProvider>
+  </React.StrictMode>,
 );

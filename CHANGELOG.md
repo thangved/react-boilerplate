@@ -2,63 +2,56 @@
 
 ## [2.0.5](https://github.com/thangved/react-boilerplate/compare/v2.0.4...v2.0.5) (2025-02-10)
 
-
 ### Bug Fixes
 
-* **docker:** add docker image description ([b56aa91](https://github.com/thangved/react-boilerplate/commit/b56aa911d4f24cef2c0b5b5a55bff74738630207))
+- **docker:** add docker image description ([b56aa91](https://github.com/thangved/react-boilerplate/commit/b56aa911d4f24cef2c0b5b5a55bff74738630207))
 
 ## [2.0.4](https://github.com/thangved/react-boilerplate/compare/v2.0.3...v2.0.4) (2025-02-10)
 
-
 ### Miscellaneous Chores
 
-* release 2.0.4 ([f64df1b](https://github.com/thangved/react-boilerplate/commit/f64df1b0b445e7a5d4478f29a17e76671fd968e9))
+- release 2.0.4 ([f64df1b](https://github.com/thangved/react-boilerplate/commit/f64df1b0b445e7a5d4478f29a17e76671fd968e9))
 
 ## [2.0.3](https://github.com/thangved/react-boilerplate/compare/v2.0.2...v2.0.3) (2025-02-09)
 
-
 ### Bug Fixes
 
-* update docker ci ([e19df83](https://github.com/thangved/react-boilerplate/commit/e19df832cec668a4c83d3a531a04de5e915421d9))
+- update docker ci ([e19df83](https://github.com/thangved/react-boilerplate/commit/e19df832cec668a4c83d3a531a04de5e915421d9))
 
 ## [2.0.2](https://github.com/thangved/react-boilerplate/compare/v2.0.1...v2.0.2) (2025-02-09)
 
-
 ### Bug Fixes
 
-* fix docker ci ([3a91104](https://github.com/thangved/react-boilerplate/commit/3a9110410d5003a18748ff49c361d2c9b169abce))
+- fix docker ci ([3a91104](https://github.com/thangved/react-boilerplate/commit/3a9110410d5003a18748ff49c361d2c9b169abce))
 
 ## [2.0.1](https://github.com/thangved/react-boilerplate/compare/v2.0.0...v2.0.1) (2025-02-09)
 
-
 ### Bug Fixes
 
-* **docker:** docker issue with root user ([7e8fbf3](https://github.com/thangved/react-boilerplate/commit/7e8fbf3ee4a8df04e366e211c0a5cb4cfdd00edb))
-* **docker:** use COPY instead ADD for local resources ([a8b542b](https://github.com/thangved/react-boilerplate/commit/a8b542ba46f9e740f15325302c52a0dacbe18267))
-* **logical:** use ?? instead || ([e275c1f](https://github.com/thangved/react-boilerplate/commit/e275c1f96a6e6d68e4ac1205918511f41b47966f))
+- **docker:** docker issue with root user ([7e8fbf3](https://github.com/thangved/react-boilerplate/commit/7e8fbf3ee4a8df04e366e211c0a5cb4cfdd00edb))
+- **docker:** use COPY instead ADD for local resources ([a8b542b](https://github.com/thangved/react-boilerplate/commit/a8b542ba46f9e740f15325302c52a0dacbe18267))
+- **logical:** use ?? instead || ([e275c1f](https://github.com/thangved/react-boilerplate/commit/e275c1f96a6e6d68e4ac1205918511f41b47966f))
 
 ## [2.0.0](https://github.com/thangved/react-boilerplate/compare/v1.1.0...v2.0.0) (2025-02-09)
 
-
 ### ⚠ BREAKING CHANGES
 
-* change types name
-* update service interfaces
-* change models to types and add BaseInput
+- change types name
+- update service interfaces
+- change models to types and add BaseInput
 
 ### Features
 
-* add docker image ([ab4021d](https://github.com/thangved/react-boilerplate/commit/ab4021daa1fd622755a09019706750e164c57217))
-* change models to types and add BaseInput ([d361b02](https://github.com/thangved/react-boilerplate/commit/d361b022b867e93fb308866303c6c342d11522c5))
-* change types name ([f311c6e](https://github.com/thangved/react-boilerplate/commit/f311c6e0aa7ba084fdee415cd5af4a6240739997))
-* import entry ([fe6a3f0](https://github.com/thangved/react-boilerplate/commit/fe6a3f03f93295dcf4fdef022ee521f6cb79409e))
-* update default logo ([1a43cfc](https://github.com/thangved/react-boilerplate/commit/1a43cfce460ad8c84ec7ad258d238336976f6372))
-* update service interfaces ([3f3858e](https://github.com/thangved/react-boilerplate/commit/3f3858e643d03854c30c21c97ad2466eab428d43))
-
+- add docker image ([ab4021d](https://github.com/thangved/react-boilerplate/commit/ab4021daa1fd622755a09019706750e164c57217))
+- change models to types and add BaseInput ([d361b02](https://github.com/thangved/react-boilerplate/commit/d361b022b867e93fb308866303c6c342d11522c5))
+- change types name ([f311c6e](https://github.com/thangved/react-boilerplate/commit/f311c6e0aa7ba084fdee415cd5af4a6240739997))
+- import entry ([fe6a3f0](https://github.com/thangved/react-boilerplate/commit/fe6a3f03f93295dcf4fdef022ee521f6cb79409e))
+- update default logo ([1a43cfc](https://github.com/thangved/react-boilerplate/commit/1a43cfce460ad8c84ec7ad258d238336976f6372))
+- update service interfaces ([3f3858e](https://github.com/thangved/react-boilerplate/commit/3f3858e643d03854c30c21c97ad2466eab428d43))
 
 ### Bug Fixes
 
-* rename logo component ([9f39568](https://github.com/thangved/react-boilerplate/commit/9f39568fd71d65698afad66e1cfb8aace7516853))
+- rename logo component ([9f39568](https://github.com/thangved/react-boilerplate/commit/9f39568fd71d65698afad66e1cfb8aace7516853))
 
 ## [1.1.0](https://github.com/thangved/react-boilerplate/compare/v1.0.7...v1.1.0) (2024-12-17)
 

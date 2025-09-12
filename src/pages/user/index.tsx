@@ -1,3 +1,3 @@
 export default function UserIndexPage() {
-	return <>User page</>;
+  return <>User page</>;
 }

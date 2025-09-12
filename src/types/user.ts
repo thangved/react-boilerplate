@@ -4,10 +4,10 @@ import { Base, BaseInput } from "./base";
  * User model, extended from the base model
  */
 export type User = Base & {
-	/**
-	 * Email of the user
-	 */
-	email: string;
+  /**
+   * Email of the user
+   */
+  email: string;
 };
 
 /**

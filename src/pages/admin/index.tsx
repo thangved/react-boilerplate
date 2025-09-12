@@ -1,3 +1,3 @@
 export default function AminIndexPage() {
-	return <>Admin page</>;
+  return <>Admin page</>;
 }
