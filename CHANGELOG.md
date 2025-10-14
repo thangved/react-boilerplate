@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.1.0](https://github.com/thangved/react-boilerplate/compare/v2.0.5...v2.1.0) (2025-10-14)
+
+
+### Features
+
+* add tailwindcss ([aa0318a](https://github.com/thangved/react-boilerplate/commit/aa0318a8a504f3025aa6dd7d11e9fa9f198376b3))
+
+
+### Bug Fixes
+
+* **deps:** fix i18next package ([0dd8f4f](https://github.com/thangved/react-boilerplate/commit/0dd8f4f5f3fa7b846a821ac31195279aba029bc7))
+* **deps:** update dependency sharp to ^0.34.0 ([4969a6c](https://github.com/thangved/react-boilerplate/commit/4969a6c18043716efc48cb38b30dbadd66ffa790))
+* **deps:** update dependency sharp to ^0.34.0 ([c07389e](https://github.com/thangved/react-boilerplate/commit/c07389e9cf2e17ef4f57ea157ed5f29f25fe5f62))
+* **deps:** update dependency svgo to v4 ([6318c45](https://github.com/thangved/react-boilerplate/commit/6318c458d8254a9da0a0b5b4b91ac4207cf88dcf))
+* **deps:** update dependency svgo to v4 ([1987876](https://github.com/thangved/react-boilerplate/commit/1987876c76b07d84c1b23e643e04a4279d6f5821))
+
 ## [2.0.5](https://github.com/thangved/react-boilerplate/compare/v2.0.4...v2.0.5) (2025-02-10)
 
 ### Bug Fixes
