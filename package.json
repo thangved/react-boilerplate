@@ -62,7 +62,7 @@
     "sass": "^1.83.0",
     "typescript": "^5.7.2",
     "vite": "^6.0.0",
-    "vite-imagetools": "^7.0.5",
+    "vite-imagetools": "^9.0.0",
     "vite-plugin-i18next-loader": "^3.0.0",
     "vite-plugin-node-polyfills": "^0.24.0",
     "vite-plugin-optimize-css-modules": "^1.2.0",
