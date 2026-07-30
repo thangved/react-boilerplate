@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.2](https://github.com/thangved/react-boilerplate/compare/v2.1.1...v2.1.2) (2026-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-i18next to v17 ([7e69e22](https://github.com/thangved/react-boilerplate/commit/7e69e2291983b129f8281aa1a04a773f38ce6d8f))
+* **deps:** update dependency react-i18next to v17 ([7ccee4a](https://github.com/thangved/react-boilerplate/commit/7ccee4af101b19e25ec56cafd1b52228003c6e59))
+* **deps:** update dependency sharp to ^0.35.0 ([63b6b1a](https://github.com/thangved/react-boilerplate/commit/63b6b1a2c8650778a41cd6265616377ff574b5a0))
+* **deps:** update dependency sharp to ^0.35.0 ([2713af7](https://github.com/thangved/react-boilerplate/commit/2713af73476d908a251a4163df6f0b3f025257b8))
+
 ## [2.1.1](https://github.com/thangved/react-boilerplate/compare/v2.1.0...v2.1.1) (2026-07-30)
 
 
