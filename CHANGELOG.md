@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/thangved/react-boilerplate/compare/v2.1.0...v2.1.1) (2026-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sharp to ^0.35.0 ([e74e30b](https://github.com/thangved/react-boilerplate/commit/e74e30b284b4f9c5bf4584a4db7139635a7444d3))
+
 ## [2.1.0](https://github.com/thangved/react-boilerplate/compare/v2.0.5...v2.1.0) (2025-10-14)
 
 
